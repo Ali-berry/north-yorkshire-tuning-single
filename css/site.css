@@ -242,3 +242,14 @@ button, input, select { font: inherit; color: inherit; }
 .offroad-note { display: flex; gap: 12px; align-items: flex-start; margin: 20px 0 0; padding: 14px 16px; border: 1px solid var(--line); border-left: 3px solid var(--blue-2); border-radius: 10px; background: var(--card); font-size: 14px; color: var(--soft); }
 .offroad-note .i { flex: none; width: 20px; height: 20px; margin-top: 2px; color: var(--blue-2); }
 .split h3 { margin-top: 1.2em; }
+
+/* Payment Assist band (approved wording, chhota sa) */
+.pay-band { border-block: 1px solid var(--line); background: linear-gradient(90deg, rgba(47,125,225,.10), transparent 70%); }
+.pay-inner { display: flex; align-items: center; gap: 18px; padding: 26px 0; flex-wrap: wrap; }
+.pay-icon { width: 48px; height: 48px; flex: none; display: grid; place-items: center; border-radius: 12px; border: 1px solid var(--line); color: #5aa2ff; }
+.pay-icon .i { width: 26px; height: 26px; }
+.pay-inner > div { flex: 1 1 320px; }
+.pay-head { margin: 0 0 4px; font-weight: 700; font-size: 1.15rem; }
+.pay-small { margin: 0; font-size: .82rem; opacity: .72; }
+.pay-ask { margin: 0; font-weight: 600; font-size: .92rem; color: #5aa2ff; }
+.pay-icon .i { fill: none !important; stroke: currentColor; }
